@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import voidGameImage from "@/assets/void-game.jpg";
 import shadowbornGameImage from "@/assets/shadowborn-game.jpg";
 import emberGameImage from "@/assets/ember-game.jpg";
+import crystalDepthsGameImage from "@/assets/crystal-depths-game.jpg";
 
 const projects = [
   {
@@ -29,6 +30,14 @@ const projects = [
     status: "Прототип",
     tags: ["Головоломка", "Атмосфера", "Инди"],
     image: emberGameImage
+  },
+  {
+    id: 4,
+    title: "Crystal Depths",
+    description: "Загадочное исследование подземных кристальных пещер, где древняя магия скрыта в глубинах земли.",
+    status: "Альфа",
+    tags: ["Исследование", "Магия", "Пещеры"],
+    image: crystalDepthsGameImage
   }
 ];
 
